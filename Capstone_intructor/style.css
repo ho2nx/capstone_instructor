@@ -1,0 +1,85 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+.mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.card-mode {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card-title {
+    font-size: 40px;
+}
+
+.card-body {
+    font-size: 30px;
+}
+
+.btn-primary {
+    size: 100px;
+}
+
+.card-text {
+    padding-top: 75px;
+    padding-bottom: 60px;
+    margin-left: 35px;
+    margin-right: 35px
+}
+
+nav {
+    font-size: 36px;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #2612a7;
+}
+
+label {
+    display: inline-block;
+}
+
+.checkbox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-floating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    width: 50px;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #2612a7;
+    border-color: #2612a7;
+    width: 30rem;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #5244a6;
+    border-color: #5244a6;
+    box-shadow: 0 0 0 0.25rem rgb(82 68 166 / 50%);
+}
+
+.btn-primary:hover, .btn-primary:active {
+    color: #fff;
+    background-color: #2612a7;
+    border-color: #2612a7;
+    box-shadow: 0 0 0 0.25rem rgb(82 68 166 / 50%);
+}
